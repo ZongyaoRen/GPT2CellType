@@ -3,7 +3,7 @@ Type: Package
 Title: Cell Type Annotation with GPT and Custom API Support
 Version: 0.1.0
 Author: Zongyao Ren
-Maintainer: xiaoyao@duck.com
+Maintainer: John Doe <john.doe@example.com>
 Description: Annotate cell types using GPT models through manual API calls with httr.
 Imports: httr
 License: MIT
