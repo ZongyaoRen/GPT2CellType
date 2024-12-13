@@ -46,7 +46,7 @@ gpt2celltype <- function(input, tissuename = NULL, model = "gpt-4",
       # Prepare API request
       response <- httr::POST(
         url = paste0(base_url, "chat/completions"),
-        add_headers(`Authorization` = paste("Bearer", api_key)),
+        httr::add_headers(`Authorization` = paste("Bearer", api_key)),
         encode = "json",
         body = list(
           model = model,
