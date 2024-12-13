@@ -13,8 +13,11 @@ gpt2celltype <- function(input, tissuename = NULL, model = "gpt-4",
                          base_url = "https://api.openai.com/v1/",
                          api_key = Sys.getenv("OPENAI_API_KEY"),
                          topgenenumber = 10) {
+  #check API KEY
   if (api_key == "") {
     stop("Error: API key not provided. Set OPENAI_API_KEY in environment or pass explicitly.")
+  } else {
+    print("Note: OpenAI API key found: returning the cell type annotations.")
   }
 
   # Process input data
