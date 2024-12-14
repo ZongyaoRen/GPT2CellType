@@ -1,10 +1,10 @@
 library(gpt2celltype)
 library(httr)
 
-# 输入数据
+# Load input data
 all_markers <- readRDS("all_markers.rds")
 
-# 运行 gpt2celltype
+# Run gpt2celltype with a custom API URL
 res <- gpt2celltype(
   input = all_markers,
   tissuename = "Your Tissue",
