@@ -15,7 +15,7 @@ res <- gpt2celltype(
   api_key = "your_api_key_here"
 )
 
-# 查看结果
+# Check result 
 print(res)
 
 ‘’’
