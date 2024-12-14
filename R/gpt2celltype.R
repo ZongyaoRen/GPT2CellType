@@ -77,6 +77,6 @@ gpt2celltype <- function(input, tissuename = NULL, model = "gpt-4",
     res
   }, simplify = FALSE)
 
-  print('Note: Always verify GPT-generated results before downstream analysis.')
+  print('Note: It is always recommended to check the results returned by GPT-4 in case of\n AI hallucination, before going to downstream analysis.')
   return(gsub(',$', '', unlist(allres)))
 }
