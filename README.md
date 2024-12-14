@@ -1,5 +1,5 @@
 
-,,,{r eval = FALSE}
+、、、{r eval = FALSE}
 library(gpt2celltype)
 library(httr)
 
@@ -17,5 +17,4 @@ res <- gpt2celltype(
 
 # Check result 
 print(res)
-
-,,,
+、、、
